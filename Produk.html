@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenis Produk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+        }
+
+        .product-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #fff;
+            border-radius: 0.5rem;
+        }
+
+        .product-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            background-color: #e3f2fd;
+            cursor: pointer;
+        }
+
+        .product-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .product-name {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .product-description {
+            color: #6c757d;
+            font-size: 0.875rem;
+        }
+
+        .product-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .product-link:hover {
+            color: inherit;
+        }
+        
+        .main-container {
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container main-container">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h1 class="text-center mb-4">Jenis Produk</h1>
+                
+                <div class="list-group">
+                    <a href="index.html" class="list-group-item list-group-item-action product-item p-3 mb-3 border-0">
+                        <div class="d-flex align-items-center">
+                            <img src="https://play-lh.googleusercontent.com/wRXSrwwbzBBlTpowK6onSs3rfBV-4nqVvLJJ7yAZa7jzdGNHpHH2hDhKCyKWj_3nqw" 
+                                 alt="Mobile Legends" 
+                                 class="product-icon me-3">
+                            <div>
+                                <div class="product-name">Mobile Legends</div>
+                                <div class="product-description">Game MOBA yang sangat populer di Indonesia. Mainkan bersama teman-teman dalam pertarungan 5v5!</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="index.html" class="list-group-item list-group-item-action product-item p-3 mb-3 border-0">
+                        <div class="d-flex align-items-center">
+                            <img src="https://th.bing.com/th/id/OIP.O-GOqdj9gL4e4AkXfaQjKgHaHd?rs=1&pid=ImgDetMain" 
+                                 alt="Free Fire" 
+                                 class="product-icon me-3">
+                            <div>
+                                <div class="product-name">Free Fire</div>
+                                <div class="product-description">Battle Royale yang cepat dengan gameplay dinamis dan seru. Bertahan hidup hingga akhir!</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="index.html" class="list-group-item list-group-item-action product-item p-3 mb-3 border-0">
+                        <div class="d-flex align-items-center">
+                            <img src="https://th.bing.com/th/id/OIP.JzdWfLB0wl6my6aK3uUd8QHaNK?w=115&h=180&c=7&r=0&o=5&pid=1.7" 
+                                 alt="PUBG Mobile" 
+                                 class="product-icon me-3">
+                            <div>
+                                <div class="product-name">PUBG Mobile</div>
+                                <div class="product-description">Game Battle Royale yang menawarkan pengalaman bertahan hidup yang realistis dan intens.</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="index.html" class="list-group-item list-group-item-action product-item p-3 mb-3 border-0">
+                        <div class="d-flex align-items-center">
+                            <img src="https://th.bing.com/th/id/OIP.rbZQ89biO3VeZkAoD5sUKwAAAA?w=182&h=183&c=7&r=0&o=5&pid=1.7" 
+                                 alt="Valorant" 
+                                 class="product-icon me-3">
+                            <div>
+                                <div class="product-name">Valorant</div>
+                                <div class="product-description">Game FPS dengan berbagai karakter unik dan gameplay yang menantang. Taktik dan strategi adalah kunci kemenangan!</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
